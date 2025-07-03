@@ -1,4 +1,4 @@
-# MonProjet
+# Generate srt file from hard subtitled video
 
 ## Description
 
