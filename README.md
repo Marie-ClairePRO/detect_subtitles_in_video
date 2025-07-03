@@ -28,3 +28,9 @@ The options :
 - lang : language(s) of subtitles. You can give many. Default is english, french and german.
 - cut_side : 4 sides you can cut your video to find text. By default, we cut the top half of the image. If there is unwanted text elsewhere you can use one of the options to cut it.
 - difficulty_level : estimation of difficulty of subtitles. It is always better to set to 1 (default) but if ever it is very tricky, you can try bigger values up to 5. 
+
+Exemple of usage :
+
+```bash
+python to_srt_v2.py --video video_name.mp4 --lang en fr --frames_folder video_name --cut_right 0.2 --difficulty_level 4
+```
